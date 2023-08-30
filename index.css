@@ -1,0 +1,50 @@
+.navbar{
+ 
+    color:#93B1A6;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding-left:5em ;
+    padding-right:5em ;
+    background-color:#040D12;
+
+}
+
+.navcontainer{
+    width:25%;
+    display:flex;
+    justify-content:flex-end;
+    margin-right:2em;
+    width:100%;
+}
+.anav{
+    padding-right:2em;
+    font-size:1.2em;
+    font-weight:400;
+    cursor: pointer;
+}
+.anav:hover{
+color:#b6c0bc;
+}
+.about{
+    padding-right: 5em;
+    padding-top: 2.5em;
+    padding-left: 5em;
+    font-size: 1.5em;
+    width: 60%;
+    display: flex;
+}
+
+
+
+.image1{
+    width: 20em;    
+
+}
+.abtcontainer{
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    padding-top:3em;
+ 
+}
