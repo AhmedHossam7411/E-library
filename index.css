@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+}
 .navbar{
  
     color:#93B1A6;
@@ -7,35 +11,59 @@
     padding-left:5em ;
     padding-right:5em ;
     background-color:#040D12;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-color:#93B1A6;
+   
 
 }
 
 .navcontainer{
-    width:25%;
+  
     display:flex;
     justify-content:flex-end;
     margin-right:2em;
     width:100%;
+   
 }
 .anav{
-    padding-right:2em;
+   
+    width:15%;
     font-size:1.2em;
-    font-weight:400;
+    font-weight:600;
     cursor: pointer;
+    text-decoration: none;
+    color:#93B1A6;
+    display: flex;
+    justify-content: space-around;
 }
 .anav:hover{
 color:#b6c0bc;
 }
 .about{
-    padding-right: 5em;
-    padding-top: 2.5em;
-    padding-left: 5em;
+    
+    padding: 2.5em;
     font-size: 1.5em;
-    width: 60%;
+    font-weight: 500;
+    color: #fff;
+    width: 30%;
+    background-color:#5C8374;
+    border-radius:2em;
     display: flex;
+    justify-content: center;
+    align-items: center;
+  
 }
-
-
+.main{
+    padding-bottom:10em;
+    padding-top:10em;
+}
+.maincontainer{
+    background-image:url("Resources/image1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
 
 .image1{
     width: 20em;    
@@ -43,8 +71,18 @@ color:#b6c0bc;
 }
 .abtcontainer{
     display:flex;
-    justify-content: center;
-    align-items:center;
-    padding-top:3em;
- 
+    justify-content:center;
+    
+}
+.logos{
+    display: flex;
+    justify-content: space-between;
+    width:100%;
+}
+.logo2{
+    font-family:monospace;
+    font-style:oblique;
+    font-size:2em;
+    font-weight:bolder;
+   
 }
