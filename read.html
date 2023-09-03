@@ -3,6 +3,7 @@
         <meta charset="UTF-8"/>
     <title>Websonic E-Library:read</title>
     <link rel="stylesheet" href="read.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     </head>
     <body>
         <div class="maincontainer">
@@ -16,6 +17,51 @@
                 <a id="read" class="anav-active" href="read.html">Read </a>
                 <a id="contact" class="anav" href="contact.html">Contact us</a>  
             </div>
+            
+            </div>
+            <div class="subcontainer">
+            <div class="filtercard">
+                <div class="readicons">
+                    <i class="fa-solid fa-filter" id="filtericon"></i>
+                    <div class="search">
+                        <input type="search" class="searchbar" placeholder="search for yout book here .....">
+                    </div>
+                   
+                </div>
+              
+                <div class="filtercontainer" id="filtercontainer">
+                 <div>
+                    <i id="closefilter" class="fa-regular fa-circle-xmark"></i>
+                    <div class="filternav">
+                       
+                        <h6 id="date-title"class="filtertitle">
+                            Date
+                        </h6>
+                        <h6 id="letter-title"class="filtertitle">
+                            Letter
+                        </h6>
+                        <h6 id="genre-title" class="filtertitle">
+                            Genre
+                        </h6>
+                        
+                    </div>
+                   
+                    <div id="datebody">
+                        <input type="date">
+                       </div>
+                    <div id="letterbody">
+
+                    </div>
+                    <div id="genrebody">
+
+                    </div>
+               
+                </div>
+
+                </div>
+                </div>
+        </div>
+    </div>
     </body>
-    <script src="index.js"></script>
+    <script src="read.js"></script>
 </html>
