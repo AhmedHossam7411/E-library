@@ -40,6 +40,23 @@
 .anav:hover{
 color:#b6c0bc;
 }
+.anav-active{
+   
+    width:15%;
+    font-size:1.2em;
+    font-weight:600;
+    cursor: pointer;
+    text-decoration:underline;
+    text-decoration-thickness:3px;
+    text-underline-offset:5px;
+    color:#93B1A6;
+    display: flex;
+    justify-content: space-around;
+   
+}
+.anav-active:hover{
+color:#b6c0bc;
+}
 .about{
     
     padding: 2.5em;
