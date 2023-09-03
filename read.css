@@ -23,7 +23,6 @@
   
     display:flex;
     justify-content:flex-end;
-  
     width:100%;
    
 }
@@ -150,4 +149,6 @@ margin-top:0.4em;
 #genrebody{
     display:none;
    
+=======
+>>>>>>> 1e5d6ed9053d0d62c5ca43577c3a8847a21b0276
 }
