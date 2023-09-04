@@ -70,3 +70,12 @@ color:#b6c0bc;
     font-weight:bolder;
    
 }
+
+
+.form{
+    color: white;
+     background-image:url("Resources/image1.jpg");  
+    /*no other photo path is working currently */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
