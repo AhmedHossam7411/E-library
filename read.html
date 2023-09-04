@@ -30,17 +30,21 @@
                     </div>
                    
                 </div>
-              
+                
                 <div class="filtercontainer" id="filtercontainer">
+                  
                  <div>
-                    <i id="closefilter" class="fa-regular fa-circle-xmark"></i>
+                    <div class="filterheader">
+                        <h4 class="filterby">Filter by:</h4>
+                    <i id="closefilter" class="fa-regular fa-circle-xmark"></i> 
+                    </div>
+                   
                     <div class="filternav">
-                       
                         <h6 id="date-title"class="filtertitle">
                             Date
                         </h6>
                         <h6 id="letter-title"class="filtertitle">
-                            Letter
+                        Sort by Letter
                         </h6>
                         <h6 id="genre-title" class="filtertitle">
                             Genre
@@ -49,19 +53,27 @@
                     </div>
                    
                     <div id="datebody">
-                        <input type="date">
+                        <input class="date" type="date">
                        </div>
                     <div id="letterbody">
-
+                        <div class="letterbodycontainer">
+                            <div class="letterchoice" id="A-Z">
+                                A-Z
+                            </div>
+                            <div class="letterchoice" id="Z-A">
+                                Z-A
+                            </div>
+                        </div>
                     </div>
                     <div id="genrebody">
 
                     </div>
                
                 </div>
-
+                <div class="applybtn" id="applybtn">Apply Filter</div>
                 </div>
                 </div>
+                <h6 id="filterresponse"></h6>
         </div>
     </div>
     </body>
