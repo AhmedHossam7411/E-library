@@ -1,12 +1,14 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8"/>
-    <title>Websonic E-Library:Contact Us</title>
+    <title>Websonic E-Library:contact us</title>
     <link rel="stylesheet" href="contact.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
     </head>
     <body>
-        
+        <div class="maincontainer">
             <div class="navbar">
                 <div class="logos">
                     <h2 class="logo1">Websonic</h2>
@@ -17,87 +19,35 @@
                 <a id="read" class="anav" href="read.html">Read </a>
                 <a id="contact" class="anav-active" href="contact.html">Contact us</a>  
             </div>
-            </div>
-            <div class="form">
-            <form method="post">
-                                <div>        
-                    <label for="">Username</label>
-                    <input type="text" name="user" required placeholder="account name">
-                </div>
-                    <div> 
-                        <label for="">E-mail</label>
-                    <input type="text" name="email" required placeholder="name@example.com">
-                    </div> 
-                    <div>
-                        <input type="checkbox" name="Review" value="Review" checked id="Re">
-                        <label for="Re">Review</label> 
-                        <!-- already checked , -->
-                         <!-- id for easy click on letters SAME GOES FOR EVERY CHECKBOX -->
-
-                    </div>
-                    
-                    <div>
-                        <input type="checkbox" name="Question" value="Question" id="Ques">
-                        <label for="Ques">Question</label>
-                    </div>
-
-                    <div>
-                        <input type="checkbox" name="Support" value="Support" id="Su">
-                        <label for="Su">Support</label>
-                    </div>
-                     <label for="book">include an E-book</label>
-                     <select name="book" id="book">
-                        <optgroup label="'Romance'"></optgroup>
-                        <option value="1">Twilight</option>
-                        <option value="2">Romeo and Juliet</option>
-                        <option value="3">Anna and the french kiss</option>
-
-                        <optgroup label="'Comedy'">
-                            <option value="1">Bossypants</option>
-                            <option value="2">Yes please</option>
-                            <option value="3">Mort</option>
-                        </optgroup>
-
-                        <optgroup label="'Adventure'">
-                            <option value="1">Captain Blood</option>
-                            <option value="1">kidnapped</option>
-                            <option value="1">Night flight</option>
-                        </optgroup>
-
-                            <optgroup label="'Horror'">
-                                <option value="1">Dracula</option>
-                                <option value="2">Ghost story</option>
-                                <option value="3">Frankenstein</option>
-                            </optgroup>
-                        
-                     </select>
-                     <div>
-                        <hr>
-                        <label for="area">Add what you wish</label>
-                       <textarea name="Comments" id="area" cols="30" rows="10"
-                       placeholder="Add comments">
-
-                       </textarea>
-
-                       <div>
-                        <label for="">Upload a file</label>
-                        <input type="file">
-                       </div>
-                     </div>
-                    <div>
-                    <input type="submit" value="Send">
-                    </div>
-                    <div>
-                        <input type="submit" value="Reset">
-                    </div>
+        </div> 
+       
+        <section class="Conatct" id="Contact">
+            <h2 class="title">Contact us </h2>
+            <div class="contactuscard">
+                <form class="form">
+                    <div class="group">
+                        <input placeholder="" type="text" required="" id="name">
+                        <label for="name" id="Lname">Name</label>
                 
-            </form>
+                    </div>
+                    <div class="group">
+                        <input placeholder="" type="text" id="email" name="email" required="">
+                        <label for="email" id="email">Email</label>
+              
+                    </div>
+                    <div class="group">
+                        <textarea placeholder="" id="comment" name="comment" rows="5" required=""></textarea>
+                        <label for="comment" id="Lcomment">Comment</label>
+                      
+                    </div>
+                    <button type="submit" id="submitbtn">Submit</button>
+                </form>
             </div>
-        </div>   
-        
-
-            
-            
-    </body>
     
-</html>
+        </section>
+       </div>
+
+
+       
+    </body>
+    </html>
