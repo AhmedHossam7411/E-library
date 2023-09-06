@@ -111,9 +111,7 @@ color:#b6c0bc;
 
 
 @media (max-width:992px){
-    *{
-        overflow-y: hidden;
-    }
+    
     .navcontainer{
         display:none;
     }
