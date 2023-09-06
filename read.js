@@ -37,22 +37,22 @@ function closefiltercard() {
 function apply(){
     filtercontainer.style.display="none";
     AZ.style.backgroundColor="black";
-    AZ.style.color="#1b3a2f";
+    AZ.style.color="#fff";
     ZA.style.backgroundColor="black";
-    ZA.style.color="#1b3a2f";
+    ZA.style.color="#fff";
 }
 function AZfun(){
 AZ.style.backgroundColor="#1b3a2f";
-AZ.style.color="black";
+AZ.style.color="white";
 ZA.style.backgroundColor="black";
-ZA.style.color="#1b3a2f";
+ZA.style.color="white";
 
 }
 function ZAfun(){
     ZA.style.backgroundColor="#1b3a2f";
-    ZA.style.color="black";
+    ZA.style.color="white";
     AZ.style.backgroundColor="black";
-    AZ.style.color="#1b3a2f";
+    AZ.style.color="white";
     
 }
 
