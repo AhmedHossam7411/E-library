@@ -78,6 +78,7 @@ color:#b6c0bc;
     border-style:solid;
     border-color:#1b3a2f;
     color:#1b3a2f;
+    background-color: #040D12;
     border-width:3px;
     border-radius:1em;
     width:30%;
@@ -240,9 +241,13 @@ input[type="date"]{
 @media(min-width:991px){
     .filtercontainer{
         height:35vh;
-    background-color: #040D12;
     padding-bottom:0.7em;
     }
 
 }
-
+@media(min-width:1023px) and (max-width:1024px){
+    .filtercontainer{
+        height:45vh;
+        padding-bottom:1em;
+    }
+}
