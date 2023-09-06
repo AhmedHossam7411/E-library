@@ -29,7 +29,7 @@
 }
 .anav{
    
-    width:15%;
+    width:25%;
     font-size:1.2em;
     font-weight:600;
     cursor: pointer;
@@ -43,7 +43,7 @@ color:#b6c0bc;
 }
 .anav-active{
    
-    width:15%;
+    width:25%;
     font-size:1.2em;
     font-weight:600;
     cursor: pointer;
@@ -126,4 +126,13 @@ color:#b6c0bc;
    }
 
    
+}
+@media (min-width:993px) and (max-width:1093px) {
+    .navbar{
+
+        padding-left:2em ;
+        padding-right:2em ;
+    
+    }
+
 }

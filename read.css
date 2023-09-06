@@ -28,7 +28,7 @@
 }
 .anav{
    
-    width:15%;
+    width:25%;
     font-size:1.2em;
     font-weight:600;
     cursor: pointer;
@@ -42,7 +42,7 @@ color:#b6c0bc;
 }
 .anav-active{
    
-    width:15%;
+    width:25%;
     font-size:1.2em;
     font-weight:600;
     cursor: pointer;
@@ -240,7 +240,7 @@ input[type="date"]{
 }
 @media(min-width:991px){
     .filtercontainer{
-        height:35vh;
+     height:35vh;
     padding-bottom:0.7em;
     }
 
@@ -251,3 +251,13 @@ input[type="date"]{
         padding-bottom:1em;
     }
 }
+@media (min-width:993px) and (max-width:1093px) {
+    .navbar{
+
+        padding-left:2em ;
+        padding-right:2em ;
+    
+    }
+
+}
+
