@@ -1,6 +1,5 @@
 var filterbydate=document.getElementById("date-title");
 var filterbyletter=document.getElementById("letter-title");
-var filterbygenre=document.getElementById("genre-title");
 var filtericon=document.getElementById("filtericon");
 var filtercontainer=document.getElementById("filtercontainer");
 var closefilter=document.getElementById("closefilter");
@@ -13,7 +12,6 @@ var filterresponse=document.getElementById("filterresponse");
 
 fnDate();
 function fnDate(){
-    filterbygenre.style.textDecoration="none";
     filterbyletter.style.textDecoration="none";
     filterbydate.style.textDecoration="underline";
     filterbydate.style.textDecorationThickness="3px";
@@ -21,17 +19,7 @@ function fnDate(){
     datebody.style.display="flex";
     letterbody.style.display="none";
 }
-function fnGenre(){
-    filterbyletter.style.textDecoration="none";
-    filterbydate.style.textDecoration="none";
-    filterbygenre.style.textDecoration="underline";
-    filterbygenre.style.textDecorationThickness="3px";
-    filterbygenre.style.textUnderlineOffset="3px";
-    datebody.style.display="none";
-    letterbody.style.display="none";
-}
 function fnLetter(){
-    filterbygenre.style.textDecoration="none";
     filterbydate.style.textDecoration="none";
     filterbyletter.style.textDecoration="underline";
     filterbyletter.style.textDecorationThickness="3px";
@@ -47,29 +35,28 @@ function closefiltercard() {
 }
 function apply(){
     filtercontainer.style.display="none";
-    AZ.style.backgroundColor="white";
+    AZ.style.backgroundColor="black";
     AZ.style.color="#1b3a2f";
-    ZA.style.backgroundColor="white";
+    ZA.style.backgroundColor="black";
     ZA.style.color="#1b3a2f";
 }
 function AZfun(){
 AZ.style.backgroundColor="#1b3a2f";
-AZ.style.color="white";
-ZA.style.backgroundColor="white";
+AZ.style.color="black";
+ZA.style.backgroundColor="black";
 ZA.style.color="#1b3a2f";
 
 }
 function ZAfun(){
     ZA.style.backgroundColor="#1b3a2f";
-    ZA.style.color="white";
-    AZ.style.backgroundColor="white";
+    ZA.style.color="black";
+    AZ.style.backgroundColor="black";
     AZ.style.color="#1b3a2f";
     
 }
 
 filterbydate.addEventListener('click',fnDate);
 filterbyletter.addEventListener('click',fnLetter);
-filterbygenre.addEventListener('click',fnGenre);
 filtericon.addEventListener('click',showfiltercard);
 closefilter.addEventListener('click',closefiltercard);
 applybtn.addEventListener('click',apply);

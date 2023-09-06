@@ -81,18 +81,20 @@ color:#b6c0bc;
     border-width:3px;
     border-radius:1em;
     width:30%;
-    margin-top:2em;
+    margin-top:5em;
     margin-left:2em;
     font-size: 1.2em;
     font-weight: 600;
-    padding-bottom: 0.2em;
+    padding-bottom:0.5em;;
     display:none;
 }
 .readicons{
 display:flex;
 justify-content: center;
 width:30%;
+position: absolute;
 padding-top:1.2em;
+
 
 }
 #filtericon{
@@ -149,21 +151,26 @@ margin-top:0.4em;
     display:none;
 }
 .applybtn{
-    margin-right:0.5em;
+    margin-right:auto;
     margin-bottom:0.5em;
     margin-top: auto;
     margin-left:auto;
     padding:0.5em;
     color:white;
     background-color: #1b3a2f;
-    width:6em;
+    width:75%;
     font-size:0.8em;
+    display: flex;
+    justify-content: center;
     border-radius:2em;
     cursor: pointer;
  
 }
+
 .filtercontainer{
     height:30vh;
+    display: block;
+    justify-content: center;
 }
 .filterby{
     color: #1b3a2f;
@@ -203,3 +210,39 @@ input[type="date"]{
     border-color:#1b3a2f;
     border-radius:0.5em;
 }
+.filtercard{
+    display: flex;
+    justify-content: center;
+}
+.menubar{
+    display:none;
+}
+@media (max-width:992px){
+    .navcontainer{
+        display:none;
+    }
+   .menubar>i{
+    font-size:2em;
+    display: flex;
+    align-items: center;
+   }
+   .menubar{
+    display:flex;
+}
+   .logo2{
+    display: flex;
+    justify-content:right;
+   
+   }
+
+   
+}
+@media(min-width:991px){
+    .filtercontainer{
+        height:35vh;
+    background-color: #040D12;
+    padding-bottom:0.7em;
+    }
+
+}
+

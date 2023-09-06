@@ -104,3 +104,26 @@ color:#b6c0bc;
 
     
 }
+.menubar{
+    display:none;
+}
+@media (max-width:992px){
+    .navcontainer{
+        display:none;
+    }
+   .menubar>i{
+    font-size:2em;
+    display: flex;
+    align-items: center;
+   }
+   .menubar{
+    display:flex;
+}
+   .logo2{
+    display: flex;
+    justify-content:right;
+   
+   }
+
+   
+}
