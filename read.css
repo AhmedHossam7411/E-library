@@ -75,6 +75,9 @@ color:#b6c0bc;
     
 }
 .filtercontainer{
+     display:none;
+     justify-content: center;
+
     border-style:solid;
     border-color:#1b3a2f;
     color:#1b3a2f;
@@ -86,8 +89,10 @@ color:#b6c0bc;
     margin-left:2em;
     font-size: 1.2em;
     font-weight: 600;
-    padding-bottom:0.5em;;
-    display:none;
+    padding-bottom:0.5em;
+    height:30vh;
+  
+   
 }
 .readicons{
 display:flex;
@@ -168,11 +173,7 @@ margin-top:0.4em;
  
 }
 
-.filtercontainer{
-    height:30vh;
-    display: block;
-    justify-content: center;
-}
+
 .filterby{
     color: #1b3a2f;
     display:flex;
