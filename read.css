@@ -77,6 +77,7 @@ color:#b6c0bc;
 .filtercontainer{
      display:none;
      justify-content: center;
+
     border-style:solid;
     border-color:#1b3a2f;
     color:#1b3a2f;
@@ -84,11 +85,13 @@ color:#b6c0bc;
     border-width:3px;
     border-radius:1em;
     width:40%;
+    width:30%;
     margin-top:5em;
     margin-left:2em;
     font-size: 1.2em;
     font-weight: 600;
     padding-bottom:0.5em;
+    height:30vh;
   
    
 }
@@ -138,6 +141,7 @@ display:flex;
 justify-content:right;
 margin-right:0.4em;
 margin-top:0.4em;
+color: #fff;
 }
 #datebody>input{
    width:80%
@@ -152,8 +156,8 @@ margin-top:0.4em;
     display:none;
 }
 .applybtn{
-    margin-right:auto;
     margin-bottom:auto;
+    margin-right:auto;
     margin-top: auto;
     margin-left:auto;
     padding:0.5em;
@@ -235,17 +239,21 @@ input[type="date"]{
 
    
 }
-@media(min-width:771px){ 
-  .filtercontainer{
-     height:15em;
-     width:35em;
+@media(min-width:991px){
+    .filtercontainer{
+     height:35vh;
     padding-bottom:0.7em;
-   
-   
-  }
     }
-
-
+}
+@media(min-width:771px){ 
+    .filtercontainer{
+       height:15em;
+       width:35em;
+      padding-bottom:0.7em;
+  
+  
+    }
+      }
 @media(min-width:1023px) and (max-width:1024px){
     .filtercontainer{
         height:45vh;
@@ -261,5 +269,4 @@ input[type="date"]{
     }
 
 }
-
 
