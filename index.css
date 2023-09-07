@@ -111,7 +111,44 @@ color:#b6c0bc;
     display: none;
 }
 
+/* Small screen */
+.menubarcontainer{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color:#040D12;
+    height: 270px;
+    width: 100%;
+    padding-left: 20px;
+    
+    
+    
 
+}
+.homeM{
+   padding-top: 60px;
+    
+}
+
+.contactM{
+    padding-bottom: 60px;
+}
+div.menubarcontainer > a{
+     text-decoration:none ;
+     color:#93B1A6;
+     font-size: 1.7em;
+     
+
+}
+#M-active{
+    text-decoration: underline;
+    text-decoration-thickness: 4px;
+    }
+
+#M{
+    text-decoration: none;
+}
 
 @media (max-width:992px){
     
