@@ -104,8 +104,11 @@ color:#b6c0bc;
     padding-top: 10em;
     
 }
-.menubar{
+.menubaricon{
     display:none;
+}
+.menubarcontainer{
+    display: none;
 }
 
 
@@ -115,12 +118,12 @@ color:#b6c0bc;
     .navcontainer{
         display:none;
     }
-   .menubar>i{
+   .menubaricon>i{
     font-size:2em;
     display: flex;
     align-items: center;
    }
-   .menubar{
+   .menubaricon{
     display:flex;
 }
    .logo1{
@@ -167,6 +170,11 @@ color:#b6c0bc;
    
   }
    
+}
+@media (min-width:993px){
+    *{
+        overflow-y: hidden;
+    }
 }
 @media (min-width:993px) and (max-width:1093px) {
     .navbar{

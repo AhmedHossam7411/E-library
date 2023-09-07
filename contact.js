@@ -2,10 +2,6 @@ var menuicon = document.getElementById("menubaricon");
 var menucontainer = document.getElementById("menubarcontainer");
 var contactsection = document.getElementById("Contact");
 
-
-
-
-
 function menubaractive(){
     menucontainer.style.display="flex";
 }

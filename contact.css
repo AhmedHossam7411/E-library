@@ -186,19 +186,22 @@ contactuscard {
     font-size:3em;
    
 }
-.menubar{
+.menubaricon{
     display:none;
+}
+.menubarcontainer{
+    display: none;
 }
 @media (max-width:992px){
     .navcontainer{
         display:none;
     }
-   .menubar>i{
+   .menubaricon>i{
     font-size:2em;
     display: flex;
     align-items: center;
    }
-   .menubar{
+   .menubaricon{
     display:flex;
 }
    .logo2{
