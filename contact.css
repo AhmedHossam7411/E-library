@@ -170,7 +170,7 @@ contactuscard {
     background-color:#040D12;
     height: 270px;
     width: 100%;
-    padding-left: 20px;
+    
     
     
     
@@ -188,6 +188,7 @@ div.menubarcontainer > a{
      text-decoration:none ;
      color:#93B1A6;
      font-size: 1.7em;
+     padding-left: 20px;
      
 
 }
