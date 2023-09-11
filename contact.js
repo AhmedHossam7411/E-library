@@ -10,3 +10,4 @@ function menubaroff(){
 }
 menuicon.addEventListener('click',menubaractive);
 contactsection.addEventListener('click',menubaroff);
+window.addEventListener('scroll',menubaroff);

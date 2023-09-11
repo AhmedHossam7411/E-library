@@ -10,3 +10,4 @@ function menubaroff(){
 }
 menuicon.addEventListener('click',menubaractive);
 homesection.addEventListener('click',menubaroff);
+window.addEventListener('scroll',menubaroff);

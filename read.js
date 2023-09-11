@@ -13,6 +13,7 @@ var menuicon = document.getElementById("menubaricon");
 var menucontainer = document.getElementById("menubarcontainer");
 var readsection = document.getElementById("readsection");
 
+
 fnDate();
 function fnDate(){
     filterbyletter.style.textDecoration="none";
@@ -67,9 +68,13 @@ AZ.addEventListener('click',AZfun);
 ZA.addEventListener('click',ZAfun);
 function menubaractive(){
     menucontainer.style.display="flex";
+   
 }
 function menubaroff(){
     menucontainer.style.display="none";
 }
 menuicon.addEventListener('click',menubaractive);
 readsection.addEventListener('click',menubaroff);
+window.addEventListener('scroll',menubaroff);
+
+    

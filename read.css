@@ -224,47 +224,47 @@ input[type="date"]{
     display: none;
 }
 
-/* Small screen */
-.menubarcontainer{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    align-items: flex-start;
-    background-color:#040D12;
-    height: 270px;
-    width: 100%;
-    
-    
-    
-    
 
-}
-.homeM{
-   padding-top: 60px;
-    
-}
-
-.contactM{
-    padding-bottom: 60px;
-}
-div.menubarcontainer > a{
-     text-decoration:none ;
-     color:#93B1A6;
-     font-size: 1.7em;
-     padding-left: 20px;
-     
-
-}
-#M-active{
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    }
-
-#M{
-    text-decoration: none;
-}
 
 @media (max-width:992px){
+    .menubarcontainer{
+        display:none;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color:#040D12;
+        height: 270px;
+        width: 100%;
+      
+    
+    }
+ 
+    .homeM{
+       padding-top: 60px;
+        
+    }
+    .logos{
+        font-size:1em;
+    }
+    .contactM{
+        padding-bottom: 60px;
+    }
+    div.menubarcontainer > a{
+         text-decoration:none ;
+         color:#93B1A6;
+         font-size: 1.7em;
+         padding-left: 20px;
+         
+    
+    }
+    #M-active{
+        text-decoration: underline;
+        text-decoration-thickness: 4px;
+        }
+    
+    #M{
+        text-decoration: none;
+    }
     .navcontainer{
         display:none;
     }
@@ -276,13 +276,14 @@ div.menubarcontainer > a{
    .menubaricon{
     display:flex;
 }
+
    .logo2{
     display: flex;
     justify-content:right;
+ 
    
    }
 
-   
 }
 @media(min-width:991px){
     .filtercontainer{
