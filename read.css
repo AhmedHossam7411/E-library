@@ -240,6 +240,74 @@ input[type="date"]{
     font-weight:600;
     color:#000;
 }
+.bookcard{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 2em;
+}
+.bookimg{
+    width: 20em;
+    height: 23em;
+    
+}
+
+#img1{
+    background-image: url('/Resources/book1.jpeg');
+    background-size: cover;
+     
+}
+
+#img2{
+    background-image: url('/Resources/book2.jpeg');
+    background-size: cover;
+}
+#img3{
+    background-image: url('/Resources/book3.jpeg');
+    background-size: cover;
+}
+#img4{
+    background-image: url('/Resources/book2.jpeg');
+    background-size: cover;
+}
+.content{
+    width: 100%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    /* background-image: linear-gradient(to bottom,
+    #eee 20%,
+    #27ae60 40%,
+    #151f19 50%); if this is done -> change opacity*/
+    transition: all 0.5s linear;
+    font-size: 2em;
+    color: #000;
+}
+.content:hover{
+    opacity: 1;
+}
+#img1:hover{
+   opacity: 30%;
+   
+   
+}
+#img2:hover{
+    opacity: 30%;
+}
+#img3:hover{
+    opacity: 30%;
+}
+#img4:hover{
+    opacity: 30%;
+}
+
+
+
+
+
 .bookcontainer{
     margin-top:5em;
 }
