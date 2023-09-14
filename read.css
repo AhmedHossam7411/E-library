@@ -253,7 +253,7 @@ input[type="date"]{
     width: 22em;
     height: 35em;
     
-}
+    }
 
 #Aimg1,#ZAimg1{
     background-image: url('/Resources/book1.jpeg');
@@ -306,10 +306,6 @@ input[type="date"]{
     justify-content: center;
    align-items: center;
     opacity: 0;
-    /* background-image: linear-gradient(to bottom,
-    #eee 20%,
-    #27ae60 40%,
-    #151f19 50%); if this is done -> change opacity*/
     transition: all 0.5s linear;
     font-size: 2em;
     color: #fff;
@@ -336,6 +332,18 @@ input[type="date"]{
 #ZAbooks{
     display:none;
 }
+.bookimg>i{
+    color:#373737;
+    padding:0;
+    margin:0;
+    font-size:1.5em;
+    opacity:1;
+    position: absolute;
+    z-index: 1;
+ 
+  
+}
+
 @media (max-width:992px){
     .menubarcontainer{
         display:none;
