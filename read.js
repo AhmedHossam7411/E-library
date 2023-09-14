@@ -30,6 +30,28 @@ var ZB1 =  document.getElementById("ZB1");
 var ZB2 =  document.getElementById("ZB2");
 var ZB3 =  document.getElementById("ZB3");
 var ZB4 =  document.getElementById("ZB4");
+var Aimg1 = document.getElementById("Aimg1");
+var Aimg2 = document.getElementById("Aimg2");
+var Aimg3 = document.getElementById("Aimg3");
+var Aimg4 = document.getElementById("Aimg4");
+var Bimg1 = document.getElementById("Bimg1");
+var Bimg2 = document.getElementById("Bimg2");
+var Bimg3 = document.getElementById("Bimg3");
+var Bimg4 = document.getElementById("Bimg4");
+var ZAimg1 = document.getElementById("ZAimg1");
+var ZAimg2 = document.getElementById("ZAimg2");
+var ZAimg3 = document.getElementById("ZAimg3");
+var ZAimg4 = document.getElementById("ZAimg4");
+var ZBimg1 = document.getElementById("ZBimg1");
+var ZBimg2 = document.getElementById("ZBimg2");
+var ZBimg3 = document.getElementById("ZBimg3");
+var ZBimg4 = document.getElementById("ZBimg4");
+var readnow = document.getElementById("readnow");
+var notnow = document.getElementById("notnow");
+var readnowb = document.getElementById("readnowb");
+var notnowb = document.getElementById("notnowb");
+var notnowza =  document.getElementById("notnowza");
+var notnowzb =  document.getElementById("notnowzb")
 var isAz=true;
 
 fnDate();
@@ -114,40 +136,238 @@ ZB2.addEventListener('click',B2info);
 ZB3.addEventListener('click',B3info);
 ZB4.addEventListener('click',B4info);
 
+notnow.addEventListener('click',defaultA);
+notnowb.addEventListener('click',defaultB);
+notnowza.addEventListener('click',defaultA);
+notnowzb.addEventListener('click',defaultB);
+
+function defaultA(){
+   A1.style.display="flex";
+   A2.style.display="flex";
+   A3.style.display="flex";
+   A4.style.display="flex";
+   ZA1.style.display="flex";
+   ZA2.style.display="flex";
+   ZA3.style.display="flex";
+   ZA4.style.display="flex";
+   document.getElementById("i1").style.display="flex";
+   document.getElementById("zi1").style.display="flex";
+   document.getElementById("i2").style.display="flex";
+   document.getElementById("zi2").style.display="flex";
+   document.getElementById("i3").style.display="flex";
+   document.getElementById("zi3").style.display="flex";
+   document.getElementById("i4").style.display="flex";
+   document.getElementById("zi4").style.display="flex";
+   Aimg1.style.display="flex";
+   Aimg2.style.display="flex";
+   Aimg3.style.display="flex";
+   Aimg4.style.display="flex";
+   ZAimg1.style.display="flex";
+   ZAimg2.style.display="flex";
+   ZAimg3.style.display="flex";
+   ZAimg4.style.display="flex";
+   readnow.style.display="none";  
+   notnow.style.display="none";
+   document.getElementById("wiki").style.display="none";
+   document.getElementById("wikiza").style.display="none";
+   document.getElementById("notnowza").style.display="none";
+   document.getElementById("readnowza").style.display="none";
+}
+function defaultB(){
+    B1.style.display="flex";
+    B2.style.display="flex";
+    B3.style.display="flex";
+    B4.style.display="flex";
+    ZB1.style.display="flex";
+    ZB2.style.display="flex";
+    ZB3.style.display="flex";
+    ZB4.style.display="flex";
+    document.getElementById("ib1").style.display="flex";
+    document.getElementById("zib1").style.display="flex";
+    document.getElementById("ib2").style.display="flex";
+    document.getElementById("zib2").style.display="flex";
+    document.getElementById("ib3").style.display="flex";
+    document.getElementById("zib3").style.display="flex";
+    document.getElementById("ib4").style.display="flex";
+    document.getElementById("zib4").style.display="flex";
+    Bimg1.style.display="flex";
+    Bimg2.style.display="flex";
+    Bimg3.style.display="flex";
+    Bimg4.style.display="flex";
+    ZBimg1.style.display="flex";
+    ZBimg2.style.display="flex";
+    ZBimg3.style.display="flex";
+    ZBimg4.style.display="flex";
+    readnowb.style.display="none";  
+    notnowb.style.display="none";
+    notnowzb.style.display="none";
+    document.getElementById("readnowzb").style.display="none"
+    document.getElementById("wikib").style.display="none";
+    document.getElementById("wikizb").style.display="none";
+ }
+ 
 function A1info(){
-   A1.style.color="red";
-   ZA1.style.color="red";
+   A1.style.display="none";
+   ZA1.style.display="none";
+   document.getElementById("i1").style.display="none";
+   document.getElementById("zi1").style.display="none";
+   Aimg2.style.display="none";
+   Aimg3.style.display="none";
+   Aimg4.style.display="none";
+   ZAimg2.style.display="none";
+   ZAimg3.style.display="none";
+   ZAimg4.style.display="none";
+   readnow.style.display="flex";
+   notnow.style.display="flex";
+   document.getElementById("readnowza").style.display="flex";
+   document.getElementById("notnowza").style.display="flex";
+   document.getElementById("wiki").style.display="flex";
+   document.getElementById("wikiza").style.display="flex";
+   document.getElementById("wiki").href="";
+   document.getElementById("wikiza").href="";
 }
 function A2info(){
-    A2.style.color="red";
-    ZA2.style.color="red";
- 
+    A2.style.display="none";
+    ZA2.style.display="none";
+    document.getElementById("i2").style.display="none";
+    document.getElementById("zi2").style.display="none";
+    Aimg1.style.display="none";
+    Aimg3.style.display="none";
+    Aimg4.style.display="none";
+    ZAimg1.style.display="none";
+    ZAimg3.style.display="none";
+    ZAimg4.style.display="none";
+    readnow.style.display="flex";
+    notnow.style.display="flex";
+    document.getElementById("readnowza").style.display="flex";
+    document.getElementById("notnowza").style.display="flex";
+    document.getElementById("wiki").style.display="flex";
+    document.getElementById("wikiza").style.display="flex";
+    document.getElementById("wiki").href="";
+    document.getElementById("wikiza").href="";
  }
  function A3info(){
-    A3.style.color="red";
-    ZA3.style.color="red";
-    
+    A3.style.display="none";
+    ZA3.style.display="none";
+    document.getElementById("i3").style.display="none";
+    document.getElementById("zi3").style.display="none";
+    Aimg1.style.display="none";
+    Aimg2.style.display="none";
+    Aimg4.style.display="none";
+    ZAimg1.style.display="none";
+    ZAimg2.style.display="none";
+    ZAimg4.style.display="none";
+    readnow.style.display="flex";
+    notnow.style.display="flex";
+    document.getElementById("readnowza").style.display="flex";
+    document.getElementById("notnowza").style.display="flex";
+    document.getElementById("wiki").style.display="flex";
+    document.getElementById("wikiza").style.display="flex";
+    document.getElementById("wiki").href="";
+    document.getElementById("wikiza").href="";
  }
  function A4info(){
-    A4.style.color="red";
-    ZA4.style.color="red";
- }
- function B1info(){
-    B1.style.color="red";
-    ZB1.style.color="red";
+    A4.style.display="none";
+    ZA4.style.display="none";
+    document.getElementById("i4").style.display="none";
+    document.getElementById("zi4").style.display="none";
+    Aimg1.style.display="none";
+    Aimg2.style.display="none";
+    Aimg3.style.display="none";
+    ZAimg3.style.display="none";
+    ZAimg1.style.display="none";
+    ZAimg2.style.display="none";
+    readnow.style.display="flex";
+   notnow.style.display="flex";
+   document.getElementById("readnowza").style.display="flex";
+   document.getElementById("notnowza").style.display="flex";
+   document.getElementById("wiki").style.display="flex";
+   document.getElementById("wikiza").style.display="flex";
+   document.getElementById("wiki").href="";
+   document.getElementById("wikiza").href="";
    
  }
+ function B1info(){
+    B1.style.display="none";
+    ZB1.style.display="none";
+   document.getElementById("ib1").style.display="none";
+   document.getElementById("zib1").style.display="none";
+   Bimg2.style.display="none";
+   Bimg3.style.display="none";
+   Bimg4.style.display="none";
+   ZBimg2.style.display="none";
+   ZBimg3.style.display="none";
+   ZBimg4.style.display="none";
+   readnowb.style.display="flex";
+   notnowb.style.display="flex";
+   document.getElementById("readnowzb").style.display="flex";
+   document.getElementById("notnowzb").style.display="flex";
+   document.getElementById("wikib").style.display="flex";
+   document.getElementById("wikizb").style.display="flex";
+   document.getElementById("wikib").href="";
+   document.getElementById("wikizb").href="";
+
+ }
  function B2info(){
-     B2.style.color="red";
-     ZB2.style.color="red";
+     B2.style.display="none";
+     ZB2.style.display="none";
+     document.getElementById("ib2").style.display="none";
+    document.getElementById("zib2").style.display="none";
+    Bimg1.style.display="none";
+    Bimg3.style.display="none";
+    Bimg4.style.display="none";
+    ZBimg1.style.display="none";
+    ZBimg3.style.display="none";
+    ZBimg4.style.display="none";
+    readnowb.style.display="flex";
+    notnowb.style.display="flex";
+    document.getElementById("readnowzb").style.display="flex";
+    document.getElementById("notnowzb").style.display="flex";
+    document.getElementById("wikib").style.display="flex";
+    document.getElementById("wikizb").style.display="flex";
+    document.getElementById("wikib").href="";
+    document.getElementById("wikizb").href="";
   }
   function B3info(){
-     B3.style.color="red";
-     ZB3.style.color="red";
+     B3.style.display="none";
+     ZB3.style.display="none";
+     document.getElementById("ib3").style.display="none";
+     document.getElementById("zib3").style.display="none";
+     Bimg1.style.display="none";
+     Bimg2.style.display="none";
+     Bimg4.style.display="none";
+     ZBimg1.style.display="none";
+     ZBimg2.style.display="none";
+     ZBimg4.style.display="none";
+     readnowb.style.display="flex";
+     notnowb.style.display="flex";
+     document.getElementById("readnowzb").style.display="flex";
+     document.getElementById("notnowzb").style.display="flex";
+     document.getElementById("wikib").style.display="flex";
+     document.getElementById("wikizb").style.display="flex";
+     document.getElementById("wikib").href="";
+     document.getElementById("wikizb").href="";
+ 
   }
   function B4info(){
-     B4.style.color="red";
-     ZB4.style.color="red";
+     B4.style.display="none";
+     ZB4.style.display="none";
+     document.getElementById("ib4").style.display="none";
+     document.getElementById("zib4").style.display="none";
+     Bimg1.style.display="none";
+     Bimg2.style.display="none";
+     Bimg3.style.display="none";
+     ZBimg3.style.display="none";
+     ZBimg1.style.display="none";
+     ZBimg2.style.display="none";
+     readnowb.style.display="flex";
+     notnowb.style.display="flex";
+     document.getElementById("readnowzb").style.display="flex";
+     document.getElementById("notnowzb").style.display="flex";
+     document.getElementById("wikib").style.display="flex";
+     document.getElementById("wikizb").style.display="flex";
+     document.getElementById("wikib").href="";
+     document.getElementById("wikizb").href="";
   }
 
 

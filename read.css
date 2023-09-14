@@ -343,7 +343,31 @@ input[type="date"]{
  
   
 }
-
+.readnow{
+    display: none;
+    justify-content:center;
+    text-decoration:none;
+    color: #1b3a2f;
+    font-weight: 800;
+    font-size:2em;
+}
+.wiki{
+    display: none;
+    justify-content:center;
+    text-decoration:none;
+    color: #000000;
+    font-weight: 600;
+    font-size:1.5em; 
+}
+.notnow{
+    display: none;
+    justify-content:center;
+    text-decoration:none;
+    color: #000;
+    font-weight: 600;
+    font-size:1em;
+    cursor: pointer;
+}
 @media (max-width:992px){
     .menubarcontainer{
         display:none;
