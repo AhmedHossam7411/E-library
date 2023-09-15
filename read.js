@@ -53,6 +53,7 @@ var notnowb = document.getElementById("notnowb");
 var notnowza =  document.getElementById("notnowza");
 var notnowzb =  document.getElementById("notnowzb")
 var isAz=true;
+var isfilteropen=false;
 
 fnDate();
 function fnDate(){
@@ -73,9 +74,11 @@ function fnLetter(){
 }
 function showfiltercard() {
     filtercontainer.style.display="block";
+    isfilteropen=true;
 }
 function closefiltercard() {
     filtercontainer.style.display="none";
+    isfilteropen=false;
 }
 function apply(){
     filtercontainer.style.display="none";
@@ -114,6 +117,9 @@ filterbydate.addEventListener('click',fnDate);
 filterbyletter.addEventListener('click',fnLetter);
 filtericon.addEventListener('click',showfiltercard);
 closefilter.addEventListener('click',closefiltercard);
+window.addEventListener('scroll',closefiltercard);
+AZbooks.addEventListener('click',closefiltercard);
+ZAbooks.addEventListener('click',closefiltercard);
 applybtn.addEventListener('click',apply);
 AZ.addEventListener('click',AZfun);
 ZA.addEventListener('click',ZAfun);
