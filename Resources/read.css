@@ -16,7 +16,7 @@
     border-bottom-width:2px;
     border-color:#93B1A6;
     
-   
+
 
 }
 
@@ -259,7 +259,7 @@ input[type="date"]{
     background-image: url('book1.jpeg');
     background-size: cover;
     margin-bottom:4em;
-   
+    transition:ease-in-out 1s;
      
 }
 
@@ -267,25 +267,28 @@ input[type="date"]{
     background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
-   
+    transition:ease-in-out 1s;
 }
 #Aimg3,#ZAimg3{
     background-image: url('book3.jpeg');
     background-size: cover;
     margin-bottom:4em;
+    transition:ease-in-out 1s;
+    
   
 }
 #Aimg4,#ZAimg4{
     background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
+    transition:ease-in-out 1s;
 
 }
 #Bimg1,#ZBimg1{
     background-image: url('book1.jpeg');
     background-size: cover;
     margin-bottom:4em;
-
+    transition:ease-in-out 1s;
      
 }
 
@@ -293,19 +296,19 @@ input[type="date"]{
     background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
-   
+    transition:ease-in-out 1s;
 }
 #Bimg3,#ZBimg3{
     background-image: url('book3.jpeg');
     background-size: cover;
     margin-bottom:4em;
- 
+    transition:ease-in-out 1s;
 }
 #Bimg4,#ZBimg4{
     background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
-   
+    transition:ease-in-out 1s;
 }
 .content{
     width: 100%;
