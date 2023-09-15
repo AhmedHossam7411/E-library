@@ -368,16 +368,17 @@ input[type="date"]{
     text-decoration:none;
     color: #000000;
     font-weight: 600;
-    font-size:1.5em; 
+    font-size:1.7em; 
 }
 .notnow{
     display: none;
     justify-content:center;
     text-decoration:none;
     color: #000;
-    font-weight: 600;
-    font-size:1em;
+    font-weight: 500;
+    font-size:1.2em;
     cursor: pointer;
+  
 }
 @media (max-width:992px){
     .menubarcontainer{
