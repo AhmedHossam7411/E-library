@@ -89,7 +89,7 @@ color:#b6c0bc;
     display: none; 
 }
 .maincontainer{
-    background-image:url("Resources/image1.jpg");
+    background-image:url("image1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;

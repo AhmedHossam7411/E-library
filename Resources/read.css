@@ -252,52 +252,60 @@ input[type="date"]{
 .bookimg{
     width: 22em;
     height: 35em;
-    
+   
     }
 
 #Aimg1,#ZAimg1{
-    background-image: url('/Resources/book1.jpeg');
+    background-image: url('book1.jpeg');
     background-size: cover;
     margin-bottom:4em;
+   
      
 }
 
 #Aimg2,#ZAimg2{
-    background-image: url('/Resources/book2.jpeg');
+    background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
+   
 }
 #Aimg3,#ZAimg3{
-    background-image: url('/Resources/book3.jpeg');
+    background-image: url('book3.jpeg');
     background-size: cover;
     margin-bottom:4em;
+  
 }
 #Aimg4,#ZAimg4{
-    background-image: url('/Resources/book2.jpeg');
+    background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
+
 }
 #Bimg1,#ZBimg1{
-    background-image: url('/Resources/book1.jpeg');
+    background-image: url('book1.jpeg');
     background-size: cover;
     margin-bottom:4em;
+
      
 }
 
 #Bimg2,#ZBimg2{
-    background-image: url('/Resources/book2.jpeg');
+    background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
+   
 }
 #Bimg3,#ZBimg3{
-    background-image: url('/Resources/book3.jpeg');
+    background-image: url('book3.jpeg');
     background-size: cover;
     margin-bottom:4em;
+ 
 }
 #Bimg4,#ZBimg4{
-    background-image: url('/Resources/book2.jpeg');
+    background-image: url('book2.jpeg');
     background-size: cover;
     margin-bottom:4em;
+   
 }
 .content{
     width: 100%;

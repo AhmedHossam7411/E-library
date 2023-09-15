@@ -211,6 +211,12 @@ function A1info(){
    ZA1.style.display="none";
    document.getElementById("i1").style.display="none";
    document.getElementById("zi1").style.display="none";
+   Aimg2.style.transition="ease out";
+   Aimg3.style.transition="ease out";
+   Aimg4.style.transition="ease out";
+   ZAimg2.style.transition="ease out";
+   ZAimg3.style.transition="ease out";
+   ZAimg4.style.transition="ease out";
    Aimg2.style.display="none";
    Aimg3.style.display="none";
    Aimg4.style.display="none";
@@ -225,6 +231,7 @@ function A1info(){
    document.getElementById("wikiza").style.display="flex";
    document.getElementById("wiki").href="";
    document.getElementById("wikiza").href="";
+ 
 }
 function A2info(){
     A2.style.display="none";
