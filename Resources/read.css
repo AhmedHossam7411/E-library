@@ -254,9 +254,14 @@ input[type="date"]{
     height: 35em;
    
     }
-
+.booktitle{
+    opacity:0;
+    transition:ease-in-out 2s;
+    display: flex;
+    justify-content: center;
+}
 #Aimg1,#ZAimg1{
-    background-image: url('book1.jpeg');
+    background-image: url('Airman.jpg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;
@@ -264,13 +269,13 @@ input[type="date"]{
 }
 
 #Aimg2,#ZAimg2{
-    background-image: url('book2.jpeg');
+    background-image: url('asyouwish.jpg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;
 }
 #Aimg3,#ZAimg3{
-    background-image: url('book3.jpeg');
+    background-image: url('asseenontv.jpg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;
@@ -278,14 +283,14 @@ input[type="date"]{
   
 }
 #Aimg4,#ZAimg4{
-    background-image: url('book2.jpeg');
+    background-image: url('allshookup.jpeg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;
 
 }
 #Bimg1,#ZBimg1{
-    background-image: url('book1.jpeg');
+    background-image: url('Baker\ Towers.jpg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;
@@ -293,19 +298,19 @@ input[type="date"]{
 }
 
 #Bimg2,#ZBimg2{
-    background-image: url('book2.jpeg');
+    background-image: url('banyanmoon.jpg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;
 }
 #Bimg3,#ZBimg3{
-    background-image: url('book3.jpeg');
+    background-image: url('Barbedwireheart.jpg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;
 }
 #Bimg4,#ZBimg4{
-    background-image: url('book2.jpeg');
+    background-image: url('Barkskins.jpg');
     background-size: cover;
     margin-bottom:4em;
     transition:ease-in-out 2s;

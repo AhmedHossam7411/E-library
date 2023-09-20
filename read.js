@@ -174,22 +174,27 @@ function defaultA(){
    ZAimg2.style.opacity="1";
    ZAimg3.style.opacity="1";
    ZAimg4.style.opacity="1";
-   Aimg1.style.filter="saturate(100%)";
-   Aimg2.style.filter="saturate(100%)";
-   Aimg3.style.filter="saturate(100%)";
-   Aimg4.style.filter="saturate(100%)";
-   ZAimg1.style.filter="saturate(100%)";
-   ZAimg2.style.filter="saturate(100%)";
-   ZAimg3.style.filter="saturate(100%)";
-   ZAimg4.style.filter="saturate(100%)";
+   Aimg1.style.filter="brightness(100%)";
+   Aimg2.style.filter="brightness(100%)";
+   Aimg3.style.filter="brightness(100%)";
+   Aimg4.style.filter="brightness(100%)";
+   ZAimg1.style.filter="brightness(100%)";
+   ZAimg2.style.filter="brightness(100%)";
+   ZAimg3.style.filter="brightness(100%)";
+   ZAimg4.style.filter="brightness(100%)";
    readnow.style.display="none";  
    notnow.style.display="none";
    document.getElementById("wiki").style.display="none";
    document.getElementById("wikiza").style.display="none";
    document.getElementById("notnowza").style.display="none";
    document.getElementById("readnowza").style.display="none";
+   document.getElementById("titleA1").style.opacity="0";
+   document.getElementById("titleA2").style.opacity="0";
+   document.getElementById("titleA1").innerHTML="";
+   document.getElementById("titleA2").innerHTML="";
 }
-function defaultB(){
+function defaultB()
+{
     B1.style.display="flex";
     B2.style.display="flex";
     B3.style.display="flex";
@@ -214,22 +219,26 @@ function defaultB(){
     ZBimg2.style.opacity="1";
     ZBimg3.style.opacity="1";
     ZBimg4.style.opacity="1";
-    Bimg1.style.filter="saturate(100%)";
-    Bimg2.style.filter="saturate(100%)";
-    Bimg3.style.filter="saturate(100%)";
-    Bimg4.style.filter="saturate(100%)";
-    ZBimg1.style.filter="saturate(100%)";
-    ZBimg2.style.filter="saturate(100%)";
-    ZBimg3.style.filter="saturate(100%)";
-    ZBimg4.style.filter="saturate(100%)";
+    Bimg1.style.filter="brightness(100%)";
+    Bimg2.style.filter="brightness(100%)";
+    Bimg3.style.filter="brightness(100%)";
+    Bimg4.style.filter="brightness(100%)";
+    ZBimg1.style.filter="brightness(100%)";
+    ZBimg2.style.filter="brightness(100%)";
+    ZBimg3.style.filter="brightness(100%)";
+    ZBimg4.style.filter="brightness(100%)";
     readnowb.style.display="none";  
     notnowb.style.display="none";
     notnowzb.style.display="none";
     document.getElementById("readnowzb").style.display="none"
     document.getElementById("wikib").style.display="none";
     document.getElementById("wikizb").style.display="none";
- }
+    document.getElementById("titleB1").style.opacity="0";
+    document.getElementById("titleB2").style.opacity="0";
+    document.getElementById("titleB1").innerHTML="";
+    document.getElementById("titleB2").innerHTML="";
  
+}
 function A1info(){
     defaultA();
     defaultB();
@@ -237,23 +246,29 @@ function A1info(){
    ZA1.style.display="none";
    document.getElementById("i1").style.display="none";
    document.getElementById("zi1").style.display="none";
-   Aimg1.style.filter="saturate(250%)";
-   ZAimg1.style.filter="saturate(250%)";
+   Aimg1.style.filter="brightness(120%)";
+   ZAimg1.style.filter="brightness(120%)";
    Aimg2.style.opacity="0.4";
    Aimg3.style.opacity="0.4";
    Aimg4.style.opacity="0.4";
    ZAimg2.style.opacity="0.4";
    ZAimg3.style.opacity="0.4";
    ZAimg4.style.opacity="0.4";
-   readnow.style.display="flex";
    notnow.style.display="flex";
+   readnow.style.display="flex";
+   readnow.href="https://www.goodreads.com/en/book/show/2049993";
+   document.getElementById("readnowza").href="https://www.goodreads.com/en/book/show/2049993";
    document.getElementById("readnowza").style.display="flex";
    document.getElementById("notnowza").style.display="flex";
    document.getElementById("wiki").style.display="flex";
    document.getElementById("wikiza").style.display="flex";
-   document.getElementById("wiki").href="";
-   document.getElementById("wikiza").href="";
- 
+   document.getElementById("wiki").href="https://en.wikipedia.org/wiki/Airman";
+   document.getElementById("wikiza").href="https://en.wikipedia.org/wiki/Airman";
+   document.getElementById("titleA1").innerHTML="Airman";
+   document.getElementById("titleA2").innerHTML="Airman";
+   document.getElementById("titleA1").style.opacity="1";
+   document.getElementById("titleA2").style.opacity="1";
+
 }
 function A2info(){
     defaultA();
@@ -262,8 +277,8 @@ function A2info(){
     ZA2.style.display="none";
     document.getElementById("i2").style.display="none";
     document.getElementById("zi2").style.display="none";
-    Aimg2.style.filter="saturate(250%)";
-    ZAimg2.style.filter="saturate(250%)";
+    Aimg2.style.filter="brightness(120%)";
+    ZAimg2.style.filter="brightness(120%)";
     Aimg1.style.opacity="0.4";
     Aimg3.style.opacity="0.4";
     Aimg4.style.opacity="0.4";
@@ -272,12 +287,18 @@ function A2info(){
     ZAimg4.style.opacity="0.4";
     readnow.style.display="flex";
     notnow.style.display="flex";
+    readnow.href="https://www.amazon.com/As-You-Wish-Inconceivable-Princess/dp/1476764042";
+   document.getElementById("readnowza").href="https://www.amazon.com/As-You-Wish-Inconceivable-Princess/dp/1476764042";
     document.getElementById("readnowza").style.display="flex";
     document.getElementById("notnowza").style.display="flex";
     document.getElementById("wiki").style.display="flex";
     document.getElementById("wikiza").style.display="flex";
-    document.getElementById("wiki").href="";
-    document.getElementById("wikiza").href="";
+    document.getElementById("wiki").href="https://en.wikipedia.org/wiki/As_You_Wish";
+    document.getElementById("wikiza").href="https://en.wikipedia.org/wiki/As_You_Wish";
+    document.getElementById("titleA1").innerHTML="As You Wish";
+    document.getElementById("titleA2").innerHTML="As You Wish";
+    document.getElementById("titleA1").style.opacity="1";
+    document.getElementById("titleA2").style.opacity="1";
  }
  function A3info(){
     defaultA();
@@ -286,8 +307,8 @@ function A2info(){
     ZA3.style.display="none";
     document.getElementById("i3").style.display="none";
     document.getElementById("zi3").style.display="none";
-    Aimg3.style.filter="saturate(250%)";
-    ZAimg3.style.filter="saturate(250%)";
+    Aimg3.style.filter="brightness(120%)";
+    ZAimg3.style.filter="brightness(120%)";
     Aimg1.style.opacity="0.4";
     Aimg2.style.opacity="0.4";
     Aimg4.style.opacity="0.4";
@@ -296,12 +317,18 @@ function A2info(){
     ZAimg4.style.opacity="0.4";
     readnow.style.display="flex";
     notnow.style.display="flex";
+    readnow.href=" https://www.goodreads.com/en/book/show/59228214";
+    document.getElementById("readnowza").href=" https://www.goodreads.com/en/book/show/59228214";
     document.getElementById("readnowza").style.display="flex";
     document.getElementById("notnowza").style.display="flex";
     document.getElementById("wiki").style.display="flex";
     document.getElementById("wikiza").style.display="flex";
-    document.getElementById("wiki").href="";
-    document.getElementById("wikiza").href="";
+    document.getElementById("wiki").href="https://en.wikipedia.org/wiki/As_seen_on_TV";
+    document.getElementById("wikiza").href="https://en.wikipedia.org/wiki/As_seen_on_TV";
+    document.getElementById("titleA1").innerHTML="As Seen on TV";
+    document.getElementById("titleA2").innerHTML="As Seen on TV";
+    document.getElementById("titleA1").style.opacity="1";
+    document.getElementById("titleA2").style.opacity="1";
  }
  function A4info(){
     defaultA();
@@ -310,8 +337,8 @@ function A2info(){
     ZA4.style.display="none";
     document.getElementById("i4").style.display="none";
     document.getElementById("zi4").style.display="none";
-    Aimg4.style.filter="saturate(250%)";
-    ZAimg4.style.filter="saturate(250%)";
+    Aimg4.style.filter="brightness(120%)";
+    ZAimg4.style.filter="brightness(120%)";
     Aimg1.style.opacity="0.4";
     Aimg2.style.opacity="0.4";
     Aimg3.style.opacity="0.4";
@@ -320,12 +347,18 @@ function A2info(){
     ZAimg2.style.opacity="0.4";
     readnow.style.display="flex";
    notnow.style.display="flex";
+   readnow.href=" https://www.amazon.com/All-Shook-Up-Shelley-Pearsall/dp/044042139X";
+   document.getElementById("readnowza").href=" https://www.amazon.com/All-Shook-Up-Shelley-Pearsall/dp/044042139X";
    document.getElementById("readnowza").style.display="flex";
    document.getElementById("notnowza").style.display="flex";
    document.getElementById("wiki").style.display="flex";
    document.getElementById("wikiza").style.display="flex";
-   document.getElementById("wiki").href="";
-   document.getElementById("wikiza").href="";
+   document.getElementById("wiki").href="https://en.wikipedia.org/wiki/All_Shook_Up";
+   document.getElementById("wikiza").href="https://en.wikipedia.org/wiki/All_Shook_Up";
+   document.getElementById("titleA1").innerHTML="All Shook Up";
+   document.getElementById("titleA2").innerHTML="All Shook Up";
+   document.getElementById("titleA1").style.opacity="1";
+   document.getElementById("titleA2").style.opacity="1";
    
  }
  function B1info(){
@@ -335,8 +368,8 @@ function A2info(){
     ZB1.style.display="none";
    document.getElementById("ib1").style.display="none";
    document.getElementById("zib1").style.display="none";
-   Bimg1.style.filter="saturate(250%)";
-   ZBimg1.style.filter="saturate(250%)";
+   Bimg1.style.filter="brightness(120%)";
+   ZBimg1.style.filter="brightness(120%)";
    Bimg2.style.opacity="0.4";
    Bimg3.style.opacity="0.4";
    Bimg4.style.opacity="0.4";
@@ -345,13 +378,18 @@ function A2info(){
    ZBimg4.style.opacity="0.4";
    readnowb.style.display="flex";
    notnowb.style.display="flex";
+   readnowb.href="https://www.amazon.com/Baker-Towers-Novel-Jennifer-Haigh-ebook/dp/B000FC2P6K";
+   document.getElementById("readnowzb").href="https://www.amazon.com/Baker-Towers-Novel-Jennifer-Haigh-ebook/dp/B000FC2P6K";
    document.getElementById("readnowzb").style.display="flex";
    document.getElementById("notnowzb").style.display="flex";
    document.getElementById("wikib").style.display="flex";
    document.getElementById("wikizb").style.display="flex";
-   document.getElementById("wikib").href="";
-   document.getElementById("wikizb").href="";
-
+   document.getElementById("wikib").href="https://en.wikipedia.org/wiki/Baker_Towers";
+   document.getElementById("wikizb").href="https://en.wikipedia.org/wiki/Baker_Towers";
+   document.getElementById("titleB1").innerHTML="Baker Towers";
+   document.getElementById("titleB2").innerHTML="Baker Towers";
+   document.getElementById("titleB1").style.opacity="1";
+   document.getElementById("titleB2").style.opacity="1";
  }
  function B2info(){
     defaultA();
@@ -360,8 +398,8 @@ function A2info(){
      ZB2.style.display="none";
      document.getElementById("ib2").style.display="none";
     document.getElementById("zib2").style.display="none";
-    Bimg2.style.filter="saturate(250%)";
-    ZBimg2.style.filter="saturate(250%)";
+    Bimg2.style.filter="brightness(120%)";
+    ZBimg2.style.filter="brightness(120%)";
     Bimg1.style.opacity="0.4";
     Bimg3.style.opacity="0.4";
     Bimg4.style.opacity="0.4";
@@ -370,12 +408,18 @@ function A2info(){
     ZBimg4.style.opacity="0.4";
     readnowb.style.display="flex";
     notnowb.style.display="flex";
+    readnowb.href="https://www.amazon.com/Banyan-Moon-Thao-Thai-ebook/dp/B0BFX1ZX5Q";
+    document.getElementById("readnowzb").href="https://www.amazon.com/Banyan-Moon-Thao-Thai-ebook/dp/B0BFX1ZX5Q";
     document.getElementById("readnowzb").style.display="flex";
     document.getElementById("notnowzb").style.display="flex";
     document.getElementById("wikib").style.display="flex";
     document.getElementById("wikizb").style.display="flex";
-    document.getElementById("wikib").href="";
-    document.getElementById("wikizb").href="";
+    document.getElementById("wikib").href=" https://www.bookbrowse.com/reviews/index.cfm/book_number/4670/banyan-moon";
+    document.getElementById("wikizb").href="https://www.bookbrowse.com/reviews/index.cfm/book_number/4670/banyan-moon";
+    document.getElementById("titleB1").innerHTML="Banyan Moon";
+    document.getElementById("titleB2").innerHTML="Banyan Moon";
+    document.getElementById("titleB1").style.opacity="1";
+    document.getElementById("titleB2").style.opacity="1";
   }
   function B3info(){
     defaultA();
@@ -384,8 +428,8 @@ function A2info(){
      ZB3.style.display="none";
      document.getElementById("ib3").style.display="none";
      document.getElementById("zib3").style.display="none";
-     Bimg3.style.filter="saturate(250%)";
-     ZBimg3.style.filter="saturate(250%)";
+     Bimg3.style.filter="brightness(120%)";
+     ZBimg3.style.filter="brightness(120%)";
      Bimg1.style.opacity="0.4";
      Bimg2.style.opacity="0.4";
      Bimg4.style.opacity="0.4";
@@ -394,12 +438,18 @@ function A2info(){
      ZBimg4.style.opacity="0.4";
     readnowb.style.display="flex";
     notnowb.style.display="flex";
+    readnowb.href="https://www.amazon.com/Barbed-Wire-Heart-Tess-Sharpe-ebook/dp/B074M69WMG";
+    document.getElementById("readnowzb").href="https://www.amazon.com/Barbed-Wire-Heart-Tess-Sharpe-ebook/dp/B074M69WMG";
     document.getElementById("readnowzb").style.display="flex";
     document.getElementById("notnowzb").style.display="flex";
     document.getElementById("wikib").style.display="flex";
     document.getElementById("wikizb").style.display="flex";
-    document.getElementById("wikib").href="";
-    document.getElementById("wikizb").href="";
+    document.getElementById("wikib").href= "https://www.bookbrowse.com/reviews/index.cfm/book_number/3730/barbed-wire-heart";
+    document.getElementById("wikizb").href="https://www.bookbrowse.com/reviews/index.cfm/book_number/3730/barbed-wire-heart";
+    document.getElementById("titleB1").innerHTML="Barbed Wire Heart";
+    document.getElementById("titleB2").innerHTML="Barbed Wire Heart";
+    document.getElementById("titleB1").style.opacity="1";
+    document.getElementById("titleB2").style.opacity="1";
  
   }
   function B4info(){
@@ -409,8 +459,8 @@ function A2info(){
      ZB4.style.display="none";
      document.getElementById("ib4").style.display="none";
      document.getElementById("zib4").style.display="none";
-     Bimg4.style.filter="saturate(250%)";
-     ZBimg4.style.filter="saturate(250%)";
+     Bimg4.style.filter="brightness(120%)";
+     ZBimg4.style.filter="brightness(120%)";
      Bimg1.style.opacity="0.4";
      Bimg2.style.opacity="0.4";
      Bimg3.style.opacity="0.4";
@@ -419,12 +469,18 @@ function A2info(){
      ZBimg2.style.opacity="0.4";
      readnowb.style.display="flex";
      notnowb.style.display="flex";
+     readnowb.href="https://www.amazon.com/Barkskins-Novel-Annie-Proulx-ebook/dp/B00UDCNHZ0";
+     document.getElementById("readnowzb").href="https://www.amazon.com/Barkskins-Novel-Annie-Proulx-ebook/dp/B00UDCNHZ0";
      document.getElementById("readnowzb").style.display="flex";
      document.getElementById("notnowzb").style.display="flex";
      document.getElementById("wikib").style.display="flex";
      document.getElementById("wikizb").style.display="flex";
-     document.getElementById("wikib").href="";
-     document.getElementById("wikizb").href="";
+     document.getElementById("wikib").href= "https://en.wikipedia.org/wiki/Barkskins";
+     document.getElementById("wikizb").href="https://en.wikipedia.org/wiki/Barkskins";
+     document.getElementById("titleB1").innerHTML="Barkskins";
+     document.getElementById("titleB2").innerHTML="Barkskins";
+     document.getElementById("titleB1").style.opacity="1";
+     document.getElementById("titleB2").style.opacity="1";
   }
 
 
