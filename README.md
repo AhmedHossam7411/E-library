@@ -1,2 +1,2 @@
 # E-library
-using JavaScript
+E-library front-end website 
